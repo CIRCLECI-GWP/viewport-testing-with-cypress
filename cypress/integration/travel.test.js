@@ -2,7 +2,7 @@
 
 
 describe("Cypress Viewport Tests Suite", () => {
-    it("should be able to load the page", () => { 
+    it("should be able to load the page", () => {
         cy.visit("http://localhost:9000")
     })
 
@@ -37,9 +37,8 @@ describe("Cypress Viewport Tests Suite", () => {
             cy.get("div[id=menu-btn]").should("be.visible").click()
             cy.get(".content").should("be.visible")
         })
-    }
-    )
-    
+    })
+
 })
 
 
