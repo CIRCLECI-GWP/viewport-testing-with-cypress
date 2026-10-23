@@ -1,9 +1,10 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@1
+  cypress: cypress-io/cypress@6.1.0
 workflows:
   build:
     jobs:
       - cypress/run:
-          start: npm start
-          wait-on: 'http://localhost:9000'
+          install-browsers: true
+          start-command: npm start
+          cypress-command: npx wait-on@latest http://localhost:9000 && npx cypress run --browser chrome

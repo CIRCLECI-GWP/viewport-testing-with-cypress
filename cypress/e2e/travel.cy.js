@@ -2,8 +2,13 @@
 
 
 describe("Cypress Viewport Tests Suite", () => {
+    beforeEach(() => {
+        cy.visit("/")
+        // Each test starts on a fresh page, so visit the home page first
+    })
+
     it("should be able to load the page", () => {
-        cy.visit("http://localhost:9000")
+        cy.title().should("eq", "Travel Agency")
     })
 
     it("should load the features page", () => {
