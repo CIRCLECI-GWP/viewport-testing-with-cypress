@@ -1,6 +1,6 @@
 # Viewport Testing With Cypress
 
-[![CircleCI](https://circleci.com/gh/mwaz/viewport-testing-with-cypress.svg?style=svg)](https://circleci.com/gh/mwaz/viewport-testing-with-cypress)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/CIRCLECI-GWP/viewport-testing-with-cypress/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/CIRCLECI-GWP/viewport-testing-with-cypress/tree/main)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
@@ -11,7 +11,7 @@ An application to test browser and mobile viewports using Cypress framework.
 To clone this repository to your local machine, run the following command:
 
 ```bash
-git clone https://github.com/mwaz/viewport-testing-with-cypress.git
+git clone https://github.com/CIRCLECI-GWP/viewport-testing-with-cypress.git
 ```
 ## Installing dependencies
 To install dependencies execute the following command:
